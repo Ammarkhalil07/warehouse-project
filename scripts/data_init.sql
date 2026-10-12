@@ -1,3 +1,14 @@
+/*
+    This script initializes the DataWarehouse database and creates the necessary schemas.
+    It drops the existing DataWarehouse database if it exists, and then creates a new one.
+    The following schemas are created:
+    - bronze
+    - silver
+    - gold
+
+    warning : This script will drop the existing DataWarehouse database if it exists, which will result in the loss of all data in that database. Use with caution.
+*/
+
 
 
 USE master;

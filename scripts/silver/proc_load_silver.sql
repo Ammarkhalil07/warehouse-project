@@ -81,7 +81,7 @@ BEGIN
 		PRINT '>> Inserting Data Into: silver.crm_prd_info';
 		INSERT INTO silver.crm_prd_info (
 			prd_id,
-			cat_id, -- added new column based on calculation from prd_key to get category id and match it 
+			cat_id, -- added new column based on calculation from prd_key to get category id and match
 			prd_key, 
 			prd_nm,
 			prd_cost,
